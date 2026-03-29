@@ -129,7 +129,6 @@ Includes 11 strategic indexes on frequently filtered and joined columns.
 
 ## 🚀 Future Work
 
-- Build an interactive **Power BI / Tableau** dashboard for stakeholder self-service
 - Add **sales forecasting** using time-series models (ARIMA, Prophet)
 - Implement **customer churn prediction** using RFM scores as features
 - Automate the pipeline with **scheduled ETL** (Airflow or dbt)
