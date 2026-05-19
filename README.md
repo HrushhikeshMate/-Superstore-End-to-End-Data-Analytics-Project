@@ -66,7 +66,7 @@ Key cleaning steps performed in the Jupyter notebook:
 - Date parsing (`Order Date`, `Ship Date`) from string to datetime
 - Zero-padded postal codes to preserve leading zeros (e.g., `5401` → `05401`)
 - Text standardisation (`.str.title()`) on categorical columns
-- Derived columns: `Days_to_Ship`, `Is_Loss` (profit < 0), `High_Discount` (discount > 0.8)
+- Derived columns: `Days_to_Ship`, `Is_Loss` (profit < 0), `High_Discount` (discount > 0.2)
 - Deduplication (1 duplicate removed) and validation assertions
 
 ---
